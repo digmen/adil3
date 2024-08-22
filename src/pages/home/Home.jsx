@@ -45,7 +45,7 @@ export default function Home() {
     const handleSubmit = e => {
         e.preventDefault()
 
-        fetch('https://email-send-fmb1nvduh-digmens-projects.vercel.app/send', {
+        fetch('https://email-send-iota.vercel.app/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

@@ -342,6 +342,10 @@
     outline: none;
 }
 
+.home_form input::placeholder {
+    color: white;
+}
+
 .home_form input {
     outline: none;
     background-color: #585858;

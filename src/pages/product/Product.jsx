@@ -34,7 +34,7 @@ export default function Product() {
 					<p>{t('product.product_intro_text')}</p>
 				</div>
 			</div>
-			<div className='about_two_block'>
+			<div className='about_two_block2'>
 				<div className='container'>
 					{/* 1 */}
 					<div className='card'>
@@ -47,7 +47,7 @@ export default function Product() {
 						</div>
 					</div>
 					{/* 2 */}
-					<div className='card'>
+					<div className='card cont2'>
 						<div className='card-con2'>
 							<img src={b2} alt='' />
 						</div>
@@ -67,7 +67,7 @@ export default function Product() {
 						</div>
 					</div>
 					{/* 4 */}
-					<div className='card'>
+					<div className='card cont2'>
 						<div className='card-con2'>
 							<img src={b4} alt='' />
 						</div>

@@ -7,6 +7,69 @@
 		"homeLink5": "Hizmetler"
 	},
 	"home": {
+		"home_hero_title": "İşbirliği için en iyi seçeneğiz",
+		"home_hero_text": "Bizi seçin ve pişman olmayacaksınız",
+		"home_hero_link": "Bize ulaşın",
+		"home_stats_title": "Rakamlar hikayemizi anlatıyor",
+		"home_stats_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+		"home_stats_items": {
+			"item1": "Farklı Ürünler",
+			"item2": "İşbirliği Yapan Markalar",
+			"item3": "Memnun Müşteriler"
+		},
+		"home_products_title": "ÜRÜNLER HAKKINDA",
+		"home_products_text": "Ürünlerimiz, yıllarca süren işbirliği ve yeniliğin sonucudur. Gelişmiş teknoloji ve ayrıntılara özen göstererek yüksek kaliteli ürünler yaratmaya çalışıyoruz. Üretimin her aşaması, en yüksek güvenlik ve verimlilik standartlarına uygunluğu sağlamak için dikkatle izlenir. Amacımız, tüketicilere yaşamlarını kolaylaştıran ve daha konforlu hale getiren güvenilir ve yenilikçi çözümler sunmaktır.",
+		"home_swiper": {
+			"tools": {
+				"title": "Araçlar",
+				"text": "Güvenilir ve sertifikalı üreticilerden ürünler."
+			},
+			"food": {
+				"title": "Gıda",
+				"text": "Tüm ihtiyaçlar ve tercihler için ürünler."
+			},
+			"computing": {
+				"title": "Bilişim",
+				"text": "Harika fırsatlar, esnek indirim sistemi ve düzenli promosyonlar."
+			},
+			"textile": {
+				"title": "Tekstil",
+				"text": "Nitelikli uzmanlardan danışmanlık ve yardım."
+			},
+			"clothing": {
+				"title": "Giyim",
+				"text": "Hızlı teslimat ve uygun ödeme koşulları."
+			},
+			"factory": {
+				"title": "Fabrika",
+				"text": "Uzun vadeli ilişkiler ve her müşteriye bireysel yaklaşım."
+			}
+		},
+		"home_support_title": "Destek ve Tavsiye",
+		"home_support_items": {
+			"item1": "24 saat destek: Ekibimiz her zaman sorularınızı yanıtlamaya ve gerekli yardımı sağlamaya hazırdır.",
+			"item2": "Çeşit danışmanlığı: Ürün seçimi ve sipariş verme konusunda yardım.",
+			"item3": "Kişisel Yönetici: Her müşteriye, tüm sorunları hızla çözmek için bir kişisel yönetici atanır."
+		},
+		"home_faq_title": "Sıkça Sorulan Sorular (SSS)",
+		"home_faq_items": {
+			"question1": "Minimum sipariş miktarları nelerdir?",
+			"answer1": "Minimum sipariş miktarı ürün kategorisine bağlıdır ve bireysel olarak müzakere edilir.",
+			"question2": "Ürün numuneleri sağlıyor musunuz?",
+			"answer2": "Evet, talep üzerine kalite kontrolü için ürün numuneleri sağlayabiliriz."
+		},
+		"home_contact_title": "İşbirliğine başlamak için hazır mısınız? Bize ulaşın veya daha fazla bilgi ve bireysel bir teklif için bilgilerinizi bırakın:",
+		"home_form": {
+			"first_name": "İlk isim",
+			"email": "E-posta",
+			"submit": "Gönder"
+		},
+		"home_contact": {
+			"location": "Fulya mahallesi buyukdere cad.  Quasar no.76/188 sisli/Istanbul Turkey",
+			"phone": "+90 532 761 48 29",
+			"mail": "lotusgemicilik0@gmail.com"
+		},
+
 		"homeTextHero": "Güvenilebilecek Kalite",
 		"homeTextHeroPrg": "World Innovation Group ile konfor ve ilham yaratınŞimdi",
 		"homeTextHeroBtn": "Sipariş Verin ",

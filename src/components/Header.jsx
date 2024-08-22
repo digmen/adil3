@@ -56,7 +56,7 @@ export default function Header() {
                     <Link onClick={() => setModal(prev => !prev)} to='/about' >{t('header.homeLink2')}</Link>
                     <Link onClick={() => setModal(prev => !prev)} to='/product' >{t('header.homeLink3')}</Link>
                     <Link onClick={() => setModal(prev => !prev)} to='/service' >{t('header.homeLink4')}</Link>
-                    <a onClick={() => setModal(prev => !prev)} href='#contact'  >{t('header.homeLink5')}</a>
+                    <Link onClick={() => setModal(prev => !prev)} to='/contact'  >{t('header.homeLink5')}</Link>
                 </div>
             </div>
         </div>

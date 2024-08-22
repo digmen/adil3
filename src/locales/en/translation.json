@@ -7,6 +7,68 @@
 		"homeLink5": "CONTACT"
 	},
 	"home": {
+		"home_hero_title": "We are the best choice for cooperation",
+		"home_hero_text": "Choose us and you won't make a mistake",
+		"home_hero_link": "Contact us",
+		"home_stats_title": "Numbers are telling our story",
+		"home_stats_text": "Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.",
+		"home_stats_items": {
+			"item1": "Different Items",
+			"item2": "Cooperating Brands",
+			"item3": "Glad Clients"
+		},
+		"home_products_title": "ABOUT PRODUCTS",
+		"home_products_text": "Our products are the result of many years of cooperation and innovation. We strive to create high-quality products that combine advanced technology and attention to detail. Each stage of production is carefully monitored to ensure compliance with the highest standards of safety and efficiency. Our goal is to offer consumers reliable and innovative solutions that make their lives easier and more comfortable.",
+		"home_swiper": {
+			"tools": {
+				"title": "Tools",
+				"text": "Products from trusted and certified manufacturers."
+			},
+			"food": {
+				"title": "Food",
+				"text": "Products for all needs and preferences."
+			},
+			"computing": {
+				"title": "Computing",
+				"text": "Great deals, flexible discount system and regular promotions."
+			},
+			"textile": {
+				"title": "Textile",
+				"text": "Consultations and assistance from qualified specialists."
+			},
+			"clothing": {
+				"title": "Clothing",
+				"text": "Prompt delivery and convenient payment terms."
+			},
+			"factory": {
+				"title": "Factory",
+				"text": "Long-term relationships and an individual approach to each client."
+			}
+		},
+		"home_support_title": "Support and Advice",
+		"home_support_items": {
+			"item1": "Round-the-clock support: our team is always ready to answer all your questions and provide the necessary assistance.",
+			"item2": "Assortment consultations: assistance in selecting products and making an order.",
+			"item3": "Personal Manager: Each client is assigned a personal manager to promptly resolve all issues."
+		},
+		"home_faq_title": "Frequently Asked Questions (FAQ)",
+		"home_faq_items": {
+			"question1": "What are the minimum order quantities?",
+			"answer1": "The minimum order quantity depends on the product category and is negotiated individually.",
+			"question2": "Do you provide product samples?",
+			"answer2": "Yes, upon request, we can provide product samples for quality inspection."
+		},
+		"home_contact_title": "Are you ready to start cooperation? Contact us or leave your details for more detailed information and an individual offer:",
+		"home_form": {
+			"first_name": "First name",
+			"email": "Email",
+			"submit": "Submit"
+		},
+		"home_contact": {
+			"location": "Fulya mahallesi buyukdere cad.  Quasar no.76/188 sisli/Istanbul Turkey",
+			"phone": "+90 532 761 48 29",
+			"mail": "lotusgemicilik0@gmail.com"
+		},
 		"homeTextHero": "Quality That Can Be Trusted",
 		"homeTextHeroPrg": "Create comfort and inspiration with World Innovation Group",
 		"homeTextHeroBtn": "Order Now",

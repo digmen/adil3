@@ -1,13 +1,14 @@
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import React, { useEffect, useState } from 'react'
-import { useTranslation } from 'react-i18next';
-import AOS from 'aos';
-import 'aos/dist/aos.css';
+import { useTranslation } from 'react-i18next'
 
+import { Link } from 'react-router-dom'
+import 'swiper/css'
+import 'swiper/css/navigation'
+import { Navigation } from 'swiper/modules'
+import { Swiper, SwiperSlide } from 'swiper/react'
 import './home.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import { Navigation } from 'swiper/modules';
-import 'swiper/css';
-import 'swiper/css/navigation';
 
 import swiperimg1 from './images/swiperimg1.png'
 import swiperimg2 from './images/swiperimg2.png'
@@ -16,27 +17,17 @@ import swiperimg4 from './images/swiperimg4.png'
 import swiperimg5 from './images/swiperimg5.png'
 import swiperimg6 from './images/swiperimg6.png'
 
-import homehand from "./images/homehandimg.png";
-import questionImg from "./images/question_mark.png";
+import homehand from './images/homehandimg.png'
+import questionImg from './images/question_mark.png'
 
 import location from './images/location.svg'
-import phone from './images/phone.svg'
 import mail from './images/mail.svg'
+import phone from './images/phone.svg'
 
 import arrow from './images/fi-rs-arrow-right.svg'
 
-
-
-
-
-
-
-
-
-
-
 export default function Home() {
-    const { t } = useTranslation();
+    const { t } = useTranslation()
 
     useEffect(() => {
         AOS.init({
@@ -44,8 +35,8 @@ export default function Home() {
             duration: 700, // длительность анимации (в миллисекундах)
             easing: 'ease', // функция сглаживания анимации
             mirror: false, // запуск анимации при прокрутке назад
-        });
-    }, []);
+        })
+    }, [])
 
 
     const [name, setName] = useState('')
@@ -78,33 +69,34 @@ export default function Home() {
             })
     }
 
+
     return (
         <div>
             <div className='home_hero'>
                 <div className='home_hero_block_text'>
-                    <h1 className='home_hero_title'>We are the best choice for cooperation</h1>
-                    <span className='home_hero_text'>Choose us and you won't make a mistake</span>
-                    <a href='#contact' className='home_hero_link'>Contact us</a>
+                    <h1 className='home_hero_title'>{t('home.home_hero_title')}</h1>
+                    <span className='home_hero_text'>{t('home.home_hero_text')}</span>
+                    <a href='#contact' className='home_hero_link'>{t('home.home_hero_link')}</a>
                 </div>
             </div>
             <div className='home_two_block '>
                 <div className='home_stats_block container'>
                     <div className='home_stats_block_text'>
-                        <h1>Numbers are telling our story</h1>
-                        <span>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit.</span>
+                        <h1>{t('home.home_stats_title')}</h1>
+                        <span>{t('home.home_stats_text')}</span>
                     </div>
                     <div className='home_stats_block_table'>
                         <div className='home_stats_block_table_card'>
                             <h1>300K+</h1>
-                            <span>Different Items</span>
+                            <span>{t('home.home_stats_items.item1')}</span>
                         </div>
                         <div className='home_stats_block_table_card'>
                             <h1>10K+</h1>
-                            <span>Cooperating Brands</span>
+                            <span>{t('home.home_stats_items.item2')}</span>
                         </div>
                         <div className='home_stats_block_table_card'>
                             <h1>99%</h1>
-                            <span>Glad Clients</span>
+                            <span>{t('home.home_stats_items.item3')}</span>
                         </div>
                     </div>
                 </div>
@@ -112,10 +104,10 @@ export default function Home() {
             <div className='home_three_block'>
                 <div className='container'>
                     <div className='home_three_title'>
-                        <h1>ABOUT PRODUCTS</h1>
+                        <h1>{t('home.home_products_title')}</h1>
                     </div>
                     <div className='home_three_block_text'>
-                        <p>Our products are the result of many years of cooperation and innovation. We strive to create high-quality products that combine advanced technology and attention to detail. Each stage of production is carefully monitored to ensure compliance with the highest standards of safety and efficiency. Our goal is to offer consumers reliable and innovative solutions that make their lives easier and more comfortable.</p>
+                        <p>{t('home.home_products_text')}</p>
                         <div className='home_camera_img'></div>
                     </div>
                 </div>
@@ -131,7 +123,7 @@ export default function Home() {
                         }}
                         modules={[Navigation]}
                         loop
-                        className="mySwiper"
+                        className='mySwiper'
                         breakpoints={{
                             320: {
                                 slidesPerView: 1,
@@ -154,7 +146,6 @@ export default function Home() {
                                 spaceBetween: 20,
                             },
                         }}
-
                     >
                         <SwiperSlide>
                             <div className='home_swiper_card'>
@@ -162,8 +153,8 @@ export default function Home() {
                                     <img src={swiperimg1} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Tools</h1>
-                                    <span>Products from trusted and certified manufacturers.</span>
+                                    <h1>{t('home.home_swiper.tools.title')}</h1>
+                                    <span>{t('home.home_swiper.tools.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -173,8 +164,8 @@ export default function Home() {
                                     <img src={swiperimg2} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Food</h1>
-                                    <span>Products for all needs and preferences.</span>
+                                    <h1>{t('home.home_swiper.food.title')}</h1>
+                                    <span>{t('home.home_swiper.food.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -184,8 +175,8 @@ export default function Home() {
                                     <img src={swiperimg3} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Computing</h1>
-                                    <span>Great deals, flexible discount system and regular promotions.</span>
+                                    <h1>{t('home.home_swiper.computing.title')}</h1>
+                                    <span>{t('home.home_swiper.computing.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -195,8 +186,8 @@ export default function Home() {
                                     <img src={swiperimg4} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Textile</h1>
-                                    <span>Consultations and assistance from qualified specialists.</span>
+                                    <h1>{t('home.home_swiper.textile.title')}</h1>
+                                    <span>{t('home.home_swiper.textile.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -206,8 +197,8 @@ export default function Home() {
                                     <img src={swiperimg5} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Clothing</h1>
-                                    <span>Prompt delivery and convenient payment terms.s</span>
+                                    <h1>{t('home.home_swiper.clothing.title')}</h1>
+                                    <span>{t('home.home_swiper.clothing.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
@@ -217,24 +208,26 @@ export default function Home() {
                                     <img src={swiperimg6} alt='swiper img' />
                                 </div>
                                 <div className='home_swiper_card_block_text'>
-                                    <h1>Factory </h1>
-                                    <span>Long-term relationships and an individual approach to each client.</span>
+                                    <h1>{t('home.home_swiper.factory.title')}</h1>
+                                    <span>{t('home.home_swiper.factory.text')}</span>
                                 </div>
                             </div>
                         </SwiperSlide>
-                        <div class="swiper-button-next"></div>
-                        <div class="swiper-button-prev"></div>
+                        <div class='swiper-button-next'></div>
+                        <div class='swiper-button-prev'></div>
                     </Swiper>
                 </div>
             </div>
             <div className='home_five_block'>
                 <div className='home_five_block_content container'>
                     <div className='home_five_block_list'>
-                        <h1 className='home_five_block_list_title'>Support and Advice</h1>
+                        <h1 className='home_five_block_list_title'>
+                            {t('home.home_support_title')}
+                        </h1>
                         <ul className='home_five_block_list_text'>
-                            <li>Round-the-clock support: our team is always ready to answer all your questions and provide the necessary assistance.</li>
-                            <li>Assortment consultations: assistance in selecting products and making an order.</li>
-                            <li>Personal Manager: Each client is assigned a personal manager to promptly resolve all issues.</li>
+                            <li>{t('home.home_support_items.item1')}</li>
+                            <li>{t('home.home_support_items.item2')}</li>
+                            <li>{t('home.home_support_items.item3')}</li>
                         </ul>
                     </div>
                     <div className='home_five_block_img'>
@@ -243,12 +236,14 @@ export default function Home() {
                 </div>
                 <div className='home_five_block_content container'>
                     <div className='home_five_block_list'>
-                        <h1 className='home_five_block_list_title'>Frequently Asked Questions (FAQ)</h1>
+                        <h1 className='home_five_block_list_title'>
+                            {t('home.home_faq_title')}
+                        </h1>
                         <ul className='home_five_block_list_text_two'>
-                            <li>Question: What are the minimum order quantities?</li>
-                            <li>Answer: The minimum order quantity depends on the product category and is negotiated individually.</li>
-                            <li>Question: Do you provide product samples?</li>
-                            <li>Answer: Yes, upon request, we can provide product samples for quality inspection.</li>
+                            <li>{t('home.home_faq_items.question1')}</li>
+                            <li>{t('home.home_faq_items.answer1')}</li>
+                            <li>{t('home.home_faq_items.question2')}</li>
+                            <li>{t('home.home_faq_items.answer2')}</li>
                         </ul>
                     </div>
                     <div className='home_five_block_img'>
@@ -259,27 +254,28 @@ export default function Home() {
             <div className='home_six_block' id='contact'>
                 <div className='container'>
                     <div className='home_title_form'>
-                        <h1>Are you ready to start cooperation? Contact us or leave your details for more detailed information and an individual offer:</h1>
+                        <h1>{t('home.home_contact_title')}</h1>
                     </div>
-                    <div className='home_six_block_form_contact' >
+                    <div className='home_six_block_form_contact'>
                         <div className='home_six_block_form'>
                             <form className='home_form' onSubmit={handleSubmit}>
                                 <input
-                                    placeholder='First name'
+                                    placeholder={t('home.home_form.first_name')}
                                     type='text'
                                     id='name'
                                     value={name}
                                     onChange={e => setName(e.target.value)}
-                                    required />
+                                    required
+                                />
                                 <input
-                                    placeholder='Email'
+                                    placeholder={t('home.home_form.email')}
                                     type='email'
                                     id='email'
                                     value={email}
                                     onChange={e => setEmail(e.target.value)}
                                     required />
                                 <button type='submit'>
-                                    Sumbit
+                                    {t('home.home_form.submit')}
                                     <img src={arrow} alt='arrow' />
                                 </button>
                             </form>
@@ -287,15 +283,15 @@ export default function Home() {
                         <div className='home_six_block_contact'>
                             <div className='home_six_block_contact_text'>
                                 <img src={location} alt='location' />
-                                <span>Fulya mahallesi buyukdere cad.  Quasar no.76/188 sisli/Istanbul Turkey</span>
+                                <span>{t('home.home_contact.location')}</span>
                             </div>
                             <div className='home_six_block_contact_text'>
-                                <img src={phone} alt='location' />
-                                <span>+90 532 761 48 29</span>
+                                <img src={phone} alt='phone' />
+                                <span>{t('home.home_contact.phone')}</span>
                             </div>
                             <div className='home_six_block_contact_text'>
-                                <img src={mail} alt='location' />
-                                <span>lotusgemicilik0@gmail.com</span>
+                                <img src={mail} alt='mail' />
+                                <span>{t('home.home_contact.mail')}</span>
                             </div>
                         </div>
                     </div>

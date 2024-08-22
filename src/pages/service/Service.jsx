@@ -27,48 +27,42 @@ export default function Service() {
 				</div>
 			</div>
 			<div className='about_two_block-2'>
-				<div className='container'>
+				<div className='container grid-container'>
 					{/* 1 */}
-					<div className='card-2'>
-						<div className='card-con1-1'>
-							<h2>{t('service.individual_terms_title')}</h2>
-							<ul>
-								<li>{t('service.individual_terms_text.item1')}</li>
-								<li>{t('service.individual_terms_text.item2')}</li>
-								<li>{t('service.individual_terms_text.item3')}</li>
-							</ul>
-						</div>
-						<div className='card-con2-2'>
-							<img src={b1} alt='' />
-						</div>
+					<div className='card-con1-1'>
+						<h2>{t('service.individual_terms_title')}</h2>
+						<ul>
+							<li>{t('service.individual_terms_text.item1')}</li>
+							<li>{t('service.individual_terms_text.item2')}</li>
+							<li>{t('service.individual_terms_text.item3')}</li>
+						</ul>
+					</div>
+					<div className='card-con2-2'>
+						<img src={b1} alt='' />
 					</div>
 					{/* 2 */}
-					<div className='card-2'>
-						<div className='card-con2'>
-							<img src={b2} alt='' />
-						</div>
-						<div className='card-con1-1'>
-							<h2>{t('service.logistics_delivery_title')}</h2>
-							<ul>
-								<li>{t('service.logistics_delivery_text.item1')}</li>
-								<li>{t('service.logistics_delivery_text.item2')}</li>
-								<li>{t('service.logistics_delivery_text.item3')}</li>
-							</ul>
-						</div>
+					<div className='card-con2-2 conteiner-order'>
+						<img src={b2} alt='' />
+					</div>
+					<div className='card-con1-1 conteiner-order-2'>
+						<h2>{t('service.logistics_delivery_title')}</h2>
+						<ul>
+							<li>{t('service.logistics_delivery_text.item1')}</li>
+							<li>{t('service.logistics_delivery_text.item2')}</li>
+							<li>{t('service.logistics_delivery_text.item3')}</li>
+						</ul>
 					</div>
 					{/* 3 */}
-					<div className='card-2'>
-						<div className='card-con1-1'>
-							<h2>{t('service.product_range_title')}</h2>
-							<ul>
-								<li>{t('service.product_range_text.item1')}</li>
-								<li>{t('service.product_range_text.item2')}</li>
-								<li>{t('service.product_range_text.item3')}</li>
-							</ul>
-						</div>
-						<div className='card-con2-2'>
-							<img src={b3} alt='' />
-						</div>
+					<div className='card-con1-1 '>
+						<h2>{t('service.product_range_title')}</h2>
+						<ul>
+							<li>{t('service.product_range_text.item1')}</li>
+							<li>{t('service.product_range_text.item2')}</li>
+							<li>{t('service.product_range_text.item3')}</li>
+						</ul>
+					</div>
+					<div className='card-con2-2'>
+						<img src={b3} alt='' />
 					</div>
 				</div>
 			</div>

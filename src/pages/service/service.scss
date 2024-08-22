@@ -22,20 +22,26 @@
 }
 
 .about_two_block-2 {
-	padding: 68px 0 87px 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	.grid-container {
+		padding: 68px 0 87px 0;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+		gap: 50px; /* Отступы между карточками */
+		justify-content: center; /* Центрирование сетки по горизонтали */
+		align-content: center; /* Центрирование сетки по вертикали */
+		max-width: 430px; /* Ограничение ширины контейнера для центрирования */
+		margin: 0 auto; /* Центрирование контейнера на странице */
 
-	.card-2 {
-		display: flex;
-		justify-content: center;
-		gap: 120px;
-		padding-bottom: 100px;
 		.card-con1-1 {
 			padding: 39px 0 0 30px;
 			background-color: #004ce1;
 			border-radius: 5px;
 			display: flex;
 			flex-direction: column;
-			width: 480px;
+			width: 430px;
 			height: 500px;
 			h2 {
 				font-size: 24px;
@@ -55,13 +61,15 @@
 			}
 		}
 		.card-con2-2 {
-			width: 480px;
-			height: 500px;
+			max-width: 430px;
+			height: auto;
 			display: flex;
 
 			img {
-				width: 480px;
-				height: 500px;
+				max-width: 100%;
+				height: auto;
+				background-size: cover;
+				background-position: center;
 			}
 		}
 	}
@@ -89,6 +97,378 @@
 			font-weight: bold;
 			text-align: center;
 			line-height: 30px;
+		}
+	}
+}
+
+@media (min-width: 1024px) and (max-width: 1439px) {
+	.about_two_block-2 {
+		padding: 50px 0 87px 0;
+		gap: 0;
+
+		.card-2 {
+			gap: 0;
+			padding-bottom: 50px;
+			width: 100%;
+		}
+	}
+	.about_tree_block {
+		.container {
+			font-size: 20px;
+			h2 {
+				font-size: 20px;
+			}
+			div {
+				div {
+					width: 300px;
+					h2 {
+						font-size: 20px;
+						padding-bottom: 17px;
+					}
+					p {
+						font-size: 16px;
+					}
+				}
+			}
+			button {
+				padding: 10px 55px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+	.service {
+		.about_block_text {
+			.about_title {
+				font-size: 46px;
+			}
+		}
+	}
+	.about_two_block-2 {
+		padding: 50px 0 87px 0;
+		gap: 20px;
+
+		.grid-container {
+			gap: 20px;
+			padding: 20px 0 0 0;
+
+			.card-con1-1 {
+				width: 350px;
+				height: 400px;
+				h2 {
+					font-size: 18px;
+					font-weight: bold;
+					color: white;
+					padding-bottom: 20px;
+				}
+				ul {
+					padding-left: 18px;
+					li {
+						width: 80%;
+						padding-bottom: 10px;
+						font-size: 16px;
+						font-weight: 200;
+						color: white;
+					}
+				}
+			}
+			.card-con2-2 {
+				max-width: 350px;
+			}
+		}
+		.card-2 {
+			gap: 100px;
+			padding-bottom: 10px;
+			.card-con2-2 {
+				max-width: 400px;
+				height: auto;
+				display: flex;
+
+				img {
+					width: 100%;
+					height: auto;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+		}
+	}
+	.about_tree_block {
+		.container {
+			font-size: 18px;
+			h2 {
+				font-size: 18px;
+			}
+			div {
+				gap: 30px;
+				div {
+					width: 300px;
+					h2 {
+						font-size: 17px;
+						padding-bottom: 17px;
+					}
+					p {
+						font-size: 16px;
+					}
+				}
+			}
+			button {
+				padding: 10px 55px;
+				font-size: 16px;
+			}
+		}
+	}
+}
+
+@media (min-width: 425px) and (max-width: 767px) {
+	.service {
+		.about_block_text {
+			.about_title {
+				font-size: 40px;
+			}
+		}
+	}
+	.about_two_block-2 {
+		padding: 50px 0 87px 0;
+		gap: 20px;
+
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr; /* Одна колонка */
+			gap: 20px;
+			padding: 0; /* Удаляем отступы */
+			justify-content: center; /* Центрирование контента по горизонтали */
+			align-items: center; /* Центрирование контента по вертикали */
+			margin: 0 auto; /* Центрирование всего контейнера */
+			max-width: 350px;
+
+			.card-con1-1 {
+				width: 100%;
+				height: 400px;
+				h2 {
+					font-size: 18px;
+					font-weight: bold;
+					color: white;
+					padding-bottom: 20px;
+				}
+				ul {
+					padding-left: 18px;
+					li {
+						width: 80%;
+						padding-bottom: 10px;
+						font-size: 16px;
+						font-weight: 200;
+						color: white;
+					}
+				}
+			}
+			.card-con2-2 {
+				width: 100%;
+			}
+		}
+		.card-2 {
+			gap: 100px;
+			padding-bottom: 10px;
+			.card-con2-2 {
+				max-width: 400px;
+				height: auto;
+				display: flex;
+
+				img {
+					width: 100%;
+					height: auto;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+		}
+	}
+	.about_tree_block-3 {
+		height: 300px;
+		.container {
+			h2 {
+				font-size: 20px;
+				line-height: 25px;
+			}
+		}
+	}
+}
+.conteiner-order {
+	order: 1;
+}
+
+.conteiner-order-2 {
+	order: 2;
+}
+@media (min-width: 375px) and (max-width: 424px) {
+	.service {
+		height: 350px;
+
+		.about_block_text {
+			.about_title {
+				font-size: 40px;
+			}
+		}
+	}
+	.about_two_block-2 {
+		padding: 50px 0 87px 0;
+		gap: 20px;
+
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr; /* Одна колонка */
+			gap: 20px;
+			padding: 0; /* Удаляем отступы */
+			justify-content: center; /* Центрирование контента по горизонтали */
+			align-items: center; /* Центрирование контента по вертикали */
+			margin: 0 auto; /* Центрирование всего контейнера */
+			max-width: 300px;
+			.conteiner-order {
+				order: 2;
+			}
+
+			.conteiner-order-2 {
+				order: 1;
+			}
+			.card-con1-1 {
+				padding: 20px 0 0 20px;
+				width: 100%;
+				height: 400px;
+				h2 {
+					font-size: 18px;
+					font-weight: bold;
+					color: white;
+					padding-bottom: 15px;
+				}
+				ul {
+					padding-left: 18px;
+					li {
+						width: 80%;
+						padding-bottom: 10px;
+						font-size: 16px;
+						font-weight: 200;
+						color: white;
+					}
+				}
+			}
+			.card-con2-2 {
+				width: 100%;
+				height: 400px;
+			}
+		}
+		.card-2 {
+			gap: 100px;
+			padding-bottom: 10px;
+			.card-con2-2 {
+				max-width: 400px;
+				height: auto;
+				display: flex;
+
+				img {
+					width: 100%;
+					height: auto;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+		}
+	}
+	.about_tree_block-3 {
+		height: 300px;
+		.container {
+			h2 {
+				padding: 0 20px;
+				font-size: 18px;
+				line-height: 23px;
+			}
+		}
+	}
+}
+
+@media (min-width: 320px) and (max-width: 374px) {
+	.service {
+		height: 300px;
+
+		.about_block_text {
+			.about_title {
+				font-size: 36px;
+			}
+		}
+	}
+	.about_two_block-2 {
+		padding: 50px 0 87px 0;
+		gap: 20px;
+
+		.grid-container {
+			display: grid;
+			grid-template-columns: 1fr; /* Одна колонка */
+			gap: 20px;
+			padding: 0; /* Удаляем отступы */
+			justify-content: center; /* Центрирование контента по горизонтали */
+			align-items: center; /* Центрирование контента по вертикали */
+			margin: 0 auto; /* Центрирование всего контейнера */
+			max-width: 300px;
+			.conteiner-order {
+				order: 2;
+			}
+
+			.conteiner-order-2 {
+				order: 1;
+			}
+			.card-con1-1 {
+				padding: 20px 0 0 20px;
+				width: 100%;
+				height: 400px;
+				h2 {
+					font-size: 18px;
+					font-weight: bold;
+					color: white;
+					padding-bottom: 15px;
+				}
+				ul {
+					padding-left: 18px;
+					li {
+						width: 80%;
+						padding-bottom: 10px;
+						font-size: 16px;
+						font-weight: 200;
+						color: white;
+					}
+				}
+			}
+			.card-con2-2 {
+				width: 100%;
+				height: 350px;
+			}
+		}
+		.card-2 {
+			gap: 100px;
+			padding-bottom: 10px;
+			.card-con2-2 {
+				max-width: 350px;
+				height: auto;
+				display: flex;
+
+				img {
+					width: 100%;
+					height: auto;
+					background-size: cover;
+					background-position: center;
+				}
+			}
+		}
+	}
+
+	.about_tree_block-3 {
+		height: 300px;
+		.container {
+			h2 {
+				padding: 0 20px;
+				font-size: 16px;
+				line-height: 20px;
+			}
 		}
 	}
 }

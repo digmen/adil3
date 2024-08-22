@@ -40,7 +40,7 @@ export default function AboutUs() {
 						</div>
 					</div>
 					{/* 2 */}
-					<div className='card'>
+					<div className='card cont2'>
 						<div className='card-con2'>
 							<img src={b2} alt='' />
 						</div>
@@ -60,7 +60,7 @@ export default function AboutUs() {
 						</div>
 					</div>
 					{/* 4 */}
-					<div className='card'>
+					<div className='card cont2'>
 						<div className='card-con2'>
 							<img src={b4} alt='' />
 						</div>

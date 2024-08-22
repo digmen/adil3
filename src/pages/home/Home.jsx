@@ -64,7 +64,7 @@ export default function Home() {
                 alert(data.message)
             })
             .catch(error => {
-                console.error('Ошибка:', error)
+                console.error('Ошибка:', error);
             })
     }
 

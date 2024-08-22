@@ -65,7 +65,6 @@ export default function Home() {
             })
             .catch(error => {
                 console.error('Ошибка:', error)
-                alert('Ошибка при отправке сообщения: ' + error.message)
             })
     }
 
@@ -213,8 +212,8 @@ export default function Home() {
                                 </div>
                             </div>
                         </SwiperSlide>
-                        <div class='swiper-button-next'></div>
-                        <div class='swiper-button-prev'></div>
+                        <div className='swiper-button-next'></div>
+                        <div className='swiper-button-prev'></div>
                     </Swiper>
                 </div>
             </div>

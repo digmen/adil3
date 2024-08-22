@@ -1,0 +1,279 @@
+{
+	"header": {
+		"homeLink": "HOME",
+		"homeLink2": "ABOUT",
+		"homeLink3": "PRODUCT",
+		"homeLink4": "SERVICES",
+		"homeLink5": "CONTACT"
+	},
+	"home": {
+		"homeTextHero": "Quality That Can Be Trusted",
+		"homeTextHeroPrg": "Create comfort and inspiration with World Innovation Group",
+		"homeTextHeroBtn": "Order Now",
+		"stats": {
+			"items": "Article",
+			"brands": "Brands",
+			"clients": "Happy customers"
+		},
+		"products": {
+			"title": "Our product",
+			"categories": {
+				"carAndMotorbike": {
+					"title": "Car And Motorbike",
+					"description": "The repair and maintenance of cars and motorcycles requires high-quality spare parts and tools. The company [Company Name] provides everything you need to keep your transport in excellent condition. We guarantee high quality, a wide range and affordable prices for all products. Contact us for professional advice and selection of necessary spare parts."
+				},
+				"electronics": {
+					"title": "Electronics",
+					"description": "Electronics for home and office greatly simplify our lives and increase comfort and productivity. The company [Company name] offers a wide range of high-quality and reliable products that will satisfy all your needs. Contact us for professional advice and selection of the necessary equipment. "
+				},
+				"diyAndTools": {
+					"title": "DIY And tools",
+					"description": "The company World Innovation Group offers a wide range of tools and materials for DIY projects. Here you will find everything you need for repairs, construction and creativity. We guarantee high quality, affordable prices and professional support. Contact us to make your DIY ideas a reality. "
+				},
+				"clothing": {
+					"title": "Clothing",
+					"description": "Our company offers a wide range of fashionable and high-quality clothing for all occasions and seasons. Here you will find everything you need to create the perfect wardrobe — from everyday items to elegant outfits. We guarantee high quality materials, a variety of styles and affordable prices.  "
+				},
+				"computing": {
+					"title": "Computing",
+					"description": "The company World Innovation Group offers everything you need for your computing needs. Our product range includes high-quality computers, accessories and software. We provide high quality, competitive prices and professional support. Contact us to find the perfect solutions for your computing and IT tasks. "
+				},
+				"textile": {
+					"title": "Textile",
+					"description": "The company World Innovation Group offers a wide range of textile products for various needs. Here you will find high-quality fabrics, materials and finished products for home, office and fashion. We guarantee excellent quality, affordable prices and professional service. Contact us to update and decorate your space with our textile products. "
+				},
+				"houseAppliances": {
+					"title": "House Appliances",
+					"description": "The company World Innovation Group offers a wide range of household appliances for your home. Here you will find high-quality and reliable devices for the kitchen, cleaning and comfort. We guarantee high quality, affordable prices and professional service. Contact us to make your home cozy and modern with the help of our household appliances. "
+				},
+				"foodProducts": {
+					"title": "Food Products",
+					"description": "The company World Innovation Group offers a variety of high-quality food products. Here you will find fresh and natural products that will satisfy any taste preferences. We guarantee affordable prices and professional service. Contact us to fill your table with delicious and healthy food. "
+				}
+			},
+			"moreBtn": "More"
+		},
+		"aboutUs": {
+			"title": "About Us",
+			"description": "Our company specializes in wholesale sales of high-quality textiles, home goods, and food products. We strive to offer only the best items, carefully selected from trusted suppliers. Our approach is based on meeting customer needs and providing the highest level of service. With us, you get not just products, but a reliable partner for your business. Join our satisfied customers and experience the difference! ",
+			"learnMoreBtn": "Learn more"
+		},
+		"brands": {
+			"brend1": "Brand 1",
+			"brend2": "Brand 2",
+			"brend3": "Brand 3",
+			"brend4": "Brand 4",
+			"brend5": "Brand 5"
+		}
+	},
+	"about": {
+		"about": "About",
+		"history_title": "The History Of Our Company: From Humble Beginnings to the Leader of Wholesale Sales",
+		"history_text": "The history of our company begins with a small team of enthusiasts united in an effort to provide the market with high-quality products at affordable prices. After founding the company, we immediately focused on key industries — textiles, auto and motorcycle parts, clothing and food products.",
+		"growth_title": "Rapid Growth and Development",
+		"growth_text": "Due to the emphasis on quality and reliability, the company quickly gained the trust of customers. Every year we increased the volume of supplies, opened new warehouses and expanded the team. An important stage in our development was the introduction of modern technologies that allowed us to optimize logistics and improve customer service.",
+		"expansion_title": "Expansion Of The Product Range",
+		"expansion_text": "With the growing demand for our products, we have constantly expanded the range to meet the needs of the market. Today we are proud to be able to offer our customers a huge selection — from textiles and clothing to auto parts and food. This makes our company a universal supplier for many enterprises.",
+		"future_title": "A look into the Future",
+		"future_text": "We do not stop there and always strive for improvement. Our plans for the future include further expansion of the product range, the introduction of innovative solutions in logistics and an increase in our customer base. We are confident that with this approach we will be able to continue to please our customers with high-quality service and favorable terms of cooperation.",
+		"sell_title": "Sell with us and stay ahead of the competition",
+		"efficient_distribution_title": "Efficient Distribution",
+		"efficient_distribution_text": "Our efficient logistics and distribution network could lower shipping and warehousing costs, contributing to overall affordability.",
+		"direct_sales_title": "Direct Sales Model",
+		"direct_sales_text": "Selling directly to consumers through our own channels could eliminate the need for intermediaries or retailers, reducing costs passed on to customers.",
+		"economies_of_scale_title": "Economies of Scale",
+		"economies_of_scale_text": "If we produce goods in large quantities, we can spread fixed costs over more units, reducing the cost per unit and enabling lower prices.",
+		"contact_us": "Contact with us",
+		"aboutTextHero": "About Us",
+		"ourMission": {
+			"title": "Our Mission",
+			"description": "At World Innovation Group, we strive to create comfort and style in every home, offering our customers the finest solutions for interior and food. Our goal is to inspire and enrich the lives of our customers by providing high-quality textiles, unique interior items, and food products. We believe that every home deserves to be a perfect place for relaxation and self-expression, and thus we continually work to offer products that enhance life and comfort. Join us on our journey to create beautiful and functional spaces that reflect your individuality and style."
+		},
+		"ourPhilosophy": {
+			"title": "Our Philosophy",
+			"description": "The philosophy of our company is based on three main principles: honesty, transparency and constant pursuit of excellence. We believe in the importance of open and honest relationships with our customers and partners. Our goal is to ensure maximum customer satisfaction by providing them with only the best products and services. We are constantly striving to improve all aspects of our business. "
+		},
+		"ourValues": {
+			"title": "Our values",
+			"dynamism": {
+				"title": "Dynamism",
+				"description": "We evolve with the fast pace of e commerce. We detect the latest trends and we take risks. So that our customers are satisfied and continue to cooperate with us "
+			},
+			"innovation": {
+				"title": "Innovation",
+				"description": "Innovation is the core of our strategy. We innovate in technology, logistics, operations and we constantly optimise our processes. "
+			},
+			"passionForEcommerce": {
+				"title": "Passion For Ecommerce",
+				"description": "We are passionate about online, multi-channel and international selling. And we always do it with sustainability as a priority. "
+			}
+		},
+		"ourStory": {
+			"title": "Our Story",
+			"description": "We founded our company with the aim of connecting manufacturers with customers. Starting with a small amount of capital, we signed contracts with large manufacturers and significantly increased the volume of orders. The opening of offices and warehouses allowed us to reduce the delivery time. Today we are the market leader, introducing the latest technologies and constantly expanding our geographical presence and customer service capabilities. "
+		}
+	},
+	"product": {
+		"product": "Product",
+		"product_intro_title": "Products That We Are Proud Of: Quality, Reliability, Variety",
+		"product_intro_text": "Our company offers a wide range of products that will meet the needs of a wide variety of customers. We understand how important it is for your business to have access to high-quality goods, and therefore carefully select each unit of products that we offer. In our catalog you will find textiles, auto and motorcycle parts, clothing and food products - everything you need for the successful development of your business.",
+		"textile_title": "Textile",
+		"textile_text": "Our textile range includes a wide range of fabrics and finished products for a wide variety of needs. From high—quality cotton to innovative synthetic materials, we offer everything you need for the production of clothing, home textiles or goods for the hotel business. The quality of our textiles is time-tested and highly appreciated by our loyal customers.",
+		"auto_parts_title": "Auto and Motorcycle parts",
+		"auto_parts_text": "We offer an extensive selection of auto parts and motorcycle accessories, covering both popular and rare models. Our products are reliable and durable, which allows your customers to be confident in the safety and quality of repair or maintenance. We work directly with manufacturers, which allows us to guarantee the authenticity of every detail.",
+		"clothes_title": "Clothes",
+		"clothes_text": "Our assortment includes a variety of clothes — from basic items to fashionable novelties. We follow the latest trends and constantly update our catalog to offer you current models and stylish solutions. Our collections cover all age categories and styles, which makes them attractive to a wide range of buyers.",
+		"food_title": "Food Products",
+		"food_text": "We are proud to offer high-quality and safe food products. Our products include everything from basic food items to delicacies. We pay special attention to the selection of suppliers so that every product that hits your shelves meets the highest quality standards. We are sure that your audience will appreciate the taste and freshness of our products.",
+		"why_us_title": "Why Us?",
+		"why_us_text": "We strive to ensure that every customer finds exactly what they are looking for. We guarantee the quality and reliability of all products presented in our catalog. Thanks to our experience and professionalism, we are ready to offer you the best in the wholesale market.",
+		"productTextHero": "Product",
+		"whyChooseUs": {
+			"title": "Why Choose Us",
+			"description": "We offer high-quality products in three key categories: textiles, household goods and food. Each area has its own advantages, but they are united by one thing – our commitment to excellence and customer satisfaction. ",
+			"qualities": [
+				"Quality: We work only with trusted suppliers, ensuring high standards for each unit of production.",
+				"Variety: A wide range of products allows you to meet a variety of needs and tastes.",
+				"Trust: We value long-term relationships with customers and partners by offering reliable and effective solutions."
+			]
+		},
+		"mostPopularProduction": {
+			"title": "Most Popular Production",
+			"categories": [
+				{
+					"title": "Car And Motorbike",
+					"items": [
+						"Car and motorbike care",
+						"Car accessories",
+						"Auto parts",
+						"Car tools"
+					]
+				},
+				{
+					"title": "Electronics",
+					"items": [
+						"Batteries and chargers",
+						"Dressing technology",
+						"Hi-Fi equipment"
+					]
+				},
+				{
+					"title": "Clothing",
+					"items": ["Women", "Baby", "Boys", "Men"]
+				},
+				{
+					"title": "DIY And Tools",
+					"items": [
+						"Building machinery",
+						"Home organisation",
+						"Building supplies",
+						"Electrical wiring"
+					]
+				},
+				{
+					"title": "Computing",
+					"items": [
+						"Accesories",
+						"Bare bones",
+						"Cabling and connectivity",
+						"Components"
+					]
+				},
+				{
+					"title": "Textile",
+					"items": ["Cotton", "Linen", "Wool", "Silk"]
+				},
+				{
+					"title": "House Appliances",
+					"items": [
+						"Decoration materials",
+						"Beer and wine production",
+						"Baking",
+						"Bath"
+					]
+				},
+				{
+					"title": "Food Products",
+					"items": [
+						"Aperitifs",
+						"Bakery and pastry shop",
+						"Beers, wines and spirits",
+						"Cereals and muesli"
+					]
+				}
+			]
+		}
+	},
+	"service": {
+		"service": "Service",
+		"individual_terms_title": "Individual Terms Of Cooperation",
+		"individual_terms_text": {
+			"item1": "Personalized solutions: We offer customized terms of cooperation to meet the unique needs of each client.",
+			"item2": "Flexible pricing system: various price packages and opportunities to receive additional discounts for large order volumes.",
+			"item3": "Special conditions for regular customers: additional bonuses and privileges for our regular partners."
+		},
+		"logistics_delivery_title": "Logistics and Delivery",
+		"logistics_delivery_text": {
+			"item1": "Fast and reliable delivery: optimized routes and professional logistics solutions to ensure timely delivery of goods.",
+			"item2": "Order monitoring and tracking: The ability to track an order in real time.",
+			"item3": "Cargo safety guarantee: ensuring the safety of the goods at all stages of delivery."
+		},
+		"product_range_title": "Product Range and Categories",
+		"product_range_text": {
+			"item1": "A wide range of products: from food and beverages to household appliances and textiles.",
+			"item2": "Quality products: we work only with trusted suppliers and guarantee the high quality of all products.",
+			"item3": "Special offers: regularly updated discounts and promotions for regular customers."
+		},
+		"reliable_partner": "If you are looking for a reliable partner for wholesale purchases, our service is exactly what you need. We offer a wide range of products, including textiles, auto and motorcycle parts, various clothing and food products. Our main goal is to provide you with high—quality goods at competitive prices.",
+		"heroText": "Services",
+		"whyServiceBest": {
+			"title": "Why is our service the best?",
+			"description": "We are proud to provide our customers with an exceptional service that sets us apart from our competitors. Our service approach includes the following key aspects: ",
+			"points": [
+				"Individual approach: We understand that each client is unique and offer personalized solutions tailored to your specific needs and expectations.",
+				"Professional support: Our team of experts is always ready to help you with any questions and provide qualified recommendations on the choice of products.",
+				"Fast and reliable delivery: We ensure timely delivery of goods so that you can count on us in any situation.",
+				"Quality Assurance: We stand behind the quality of our products and services, offering guarantees and the possibility of a refund if necessary.",
+				"Flexible terms of cooperation: We strive to make our cooperation convenient and profitable for you by offering flexible payment terms and customized offers."
+			],
+			"imageAlt": "via img"
+		},
+		"advantagesTitle": "Advantages of working with us",
+		"advantages": [
+			{
+				"title": "High quality",
+				"description": "Products from trusted and certified manufacturers."
+			},
+			{
+				"title": "Wide range",
+				"description": "Products for all needs and preferences."
+			},
+			{
+				"title": "Competitive prices",
+				"description": "Great offers, flexible discount system and regular promotions."
+			},
+			{
+				"title": "Professional support",
+				"description": "Consultations and assistance from qualified specialists."
+			},
+			{
+				"title": "Fast delivery",
+				"description": "Prompt delivery and convenient payment terms."
+			},
+			{
+				"title": "Reliability and trust",
+				"description": "Long-term relationships and an individual approach to each client."
+			}
+		],
+		"goalText": "Our goal is to exceed your expectations and make working with us as pleasant and efficient as possible."
+	},
+	"contact": {
+		"contactTextHero": "CONTACT US",
+		"cardOneTitle": "EMAIL",
+		"cardEmail": "worldinnovationgroup@hotmail.com",
+		"cardTwoTitle": "PHONE",
+		"cardPhone": "+90 532 987 6543",
+		"cardThreeTitle": "ADDRESS",
+		"cardAdress": "Ziya gokalp mah. Suleyman demirel blv. The office no: 7e ic kapi no: 136 basaksehir/ Istanbul/ Turkiye"
+	}
+}

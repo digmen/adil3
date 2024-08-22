@@ -25,7 +25,7 @@ export default function Header() {
                     <Link to='/' className={`header_link_text ${isActiveLink('/') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink')}</Link>
                     <Link to='/about' className={`header_link_text ${isActiveLink('/about') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink2')}</Link>
                     <Link to='/product' className={`header_link_text ${isActiveLink('/product') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink3')}</Link>
-                    <Link to='/contact' className={`header_link_text ${isActiveLink('/contact') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink5')}</Link>
+                    <Link to='*' className={`header_link_text ${isActiveLink('/contact') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink5')}</Link>
                     <Link to='/service' className={`header_link_text ${isActiveLink('/service') ? 'header_link_text_active' : 'header_link_text'}`}>{t('header.homeLink4')}</Link>
                     <div className='header_logo'>
                         <img src={logo} alt='logo' />
@@ -56,7 +56,7 @@ export default function Header() {
                     <Link onClick={() => setModal(prev => !prev)} to='/about' >{t('header.homeLink2')}</Link>
                     <Link onClick={() => setModal(prev => !prev)} to='/product' >{t('header.homeLink3')}</Link>
                     <Link onClick={() => setModal(prev => !prev)} to='/service' >{t('header.homeLink4')}</Link>
-                    <Link onClick={() => setModal(prev => !prev)} to='/contact'  >{t('header.homeLink5')}</Link>
+                    <a onClick={() => setModal(prev => !prev)} href='#contact'  >{t('header.homeLink5')}</a>
                 </div>
             </div>
         </div>

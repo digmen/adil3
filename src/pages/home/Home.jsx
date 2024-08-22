@@ -1,10 +1,9 @@
-import React, { useEffect } from 'react'
+import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
 import './home.css'
-import { Link } from 'react-router-dom';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Navigation } from 'swiper/modules';
 import 'swiper/css';
@@ -26,6 +25,16 @@ import mail from './images/mail.svg'
 
 import arrow from './images/fi-rs-arrow-right.svg'
 
+
+
+
+
+
+
+
+
+
+
 export default function Home() {
     const { t } = useTranslation();
 
@@ -37,6 +46,38 @@ export default function Home() {
             mirror: false, // запуск анимации при прокрутке назад
         });
     }, []);
+
+
+    const [name, setName] = useState('')
+    const [email, setEmail] = useState('')
+
+    const handleSubmit = e => {
+        e.preventDefault()
+
+        fetch('https://email-send-iota.vercel.app/send', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({ name, email }),
+        })
+            .then(response => {
+                if (!response.ok) {
+                    return response.json().then(errorData => {
+                        throw new Error(errorData.error)
+                    })
+                }
+                return response.json()
+            })
+            .then(data => {
+                alert(data.message)
+            })
+            .catch(error => {
+                console.error('Ошибка:', error)
+                alert('Ошибка при отправке сообщения: ' + error.message)
+            })
+    }
+
     return (
         <div>
             <div className='home_hero'>
@@ -222,10 +263,22 @@ export default function Home() {
                     </div>
                     <div className='home_six_block_form_contact' >
                         <div className='home_six_block_form'>
-                            <form className='home_form'>
-                                <input placeholder='First name' />
-                                <input placeholder='Email' />
-                                <button>
+                            <form className='home_form' onSubmit={handleSubmit}>
+                                <input
+                                    placeholder='First name'
+                                    type='text'
+                                    id='name'
+                                    value={name}
+                                    onChange={e => setName(e.target.value)}
+                                    required />
+                                <input
+                                    placeholder='Email'
+                                    type='email'
+                                    id='email'
+                                    value={email}
+                                    onChange={e => setEmail(e.target.value)}
+                                    required />
+                                <button type='submit'>
                                     Sumbit
                                     <img src={arrow} alt='arrow' />
                                 </button>

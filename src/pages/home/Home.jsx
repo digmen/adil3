@@ -72,7 +72,7 @@ export default function Home() {
 
     return (
         <>
-        <Header/>
+        <Header />
          <div>
             <div className='home_hero'>
                 <div className='home_hero_block_text'>

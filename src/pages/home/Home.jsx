@@ -45,7 +45,7 @@ export default function Home() {
     const handleSubmit = e => {
         e.preventDefault()
 
-        fetch('https://email-send-iota.vercel.app/send', {
+        fetch('https://vercel-lotus.vercel.app/send', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
@@ -61,7 +61,8 @@ export default function Home() {
                 return response.json()
             })
             .then(data => {
-                alert(data.message)
+                console.log(data.status);
+
             })
             .catch(error => {
                 console.error('Ошибка:', error);

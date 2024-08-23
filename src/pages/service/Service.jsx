@@ -2,6 +2,9 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+
+import Header from '../../components/Header';
+
 import b1 from './images/sr1.png'
 import b2 from './images/sr2.png'
 import b3 from './images/sr3.png'
@@ -20,6 +23,8 @@ export default function Service() {
 	}, [])
 
 	return (
+		<>
+			<Header/>
 		<div>
 			<div className='service'>
 				<div className='about_block_text'>
@@ -72,5 +77,6 @@ export default function Service() {
 				</div>
 			</div>
 		</div>
+		</>
 	)
 }

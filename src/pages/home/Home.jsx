@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-import Header from '../pages/components/Header';
+import Header from '../../components/Header';
 import { Link } from 'react-router-dom'
 import 'swiper/css'
 import 'swiper/css/navigation'

@@ -7,8 +7,21 @@ import './footer.css';
 import logo from "./images/logo.svg";
 
 export default function Footer() {
-    const { t } = useTranslation()
+    const [stateLng, setStateLng] = useState(true);
+    const { t, i18n } = useTranslation();
+    const location = useLocation();
 
+    const changeLanguage = (lng) => {
+        i18n.changeLanguage(lng);
+        setStateLng(lng === 'en');
+    };
+
+    const [modal, setModal] = useState(false);
+
+    const isActiveLink = (path) => location.pathname === path;
+
+
+    
     return (
         <div className='footer'>
             <div className='container'>

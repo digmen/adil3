@@ -2,7 +2,7 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect, useState } from 'react'
 import { useTranslation } from 'react-i18next'
-
+import Header from '../pages/components/Header';
 import { Link } from 'react-router-dom'
 import 'swiper/css'
 import 'swiper/css/navigation'
@@ -71,7 +71,9 @@ export default function Home() {
 
 
     return (
-        <div>
+        <>
+        <Header/>
+         <div>
             <div className='home_hero'>
                 <div className='home_hero_block_text'>
                     <h1 className='home_hero_title'>{t('home.home_hero_title')}</h1>
@@ -298,5 +300,6 @@ export default function Home() {
                 </div>
             </div>
         </div>
+        </>
     )
 }

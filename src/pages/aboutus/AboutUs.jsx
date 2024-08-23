@@ -2,6 +2,9 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+
+import Header from '../../components/Header';
+
 import './about.scss'
 import b1 from './images/b1.png'
 import b2 from './images/b2.png'
@@ -21,6 +24,8 @@ export default function AboutUs() {
 	}, [])
 
 	return (
+		<>
+			<Header/>
 		<div>
 			<div className='about'>
 				<div className='about_block_text'>
@@ -92,5 +97,6 @@ export default function AboutUs() {
 				</div>
 			</div>
 		</div>
+		</>
 	)
 }

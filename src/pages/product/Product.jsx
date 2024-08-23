@@ -2,6 +2,10 @@ import AOS from 'aos'
 import 'aos/dist/aos.css'
 import React, { useEffect } from 'react'
 import { useTranslation } from 'react-i18next'
+
+import Header from '../../components/Header';
+
+
 import b1 from './images/pr1.png'
 import b2 from './images/pr2.png'
 import b3 from './images/pr3.png'
@@ -22,6 +26,8 @@ export default function Product() {
 	}, [])
 
 	return (
+		<>
+		<Header/>
 		<div>
 			<div className='about-5'>
 				<div className='about_block_text'>
@@ -88,6 +94,7 @@ export default function Product() {
 					</div>
 				</div>
 			</div>
-		</div>
+		</div>	
+		</>
 	)
 }
